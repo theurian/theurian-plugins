@@ -13,7 +13,9 @@
       "source": {
         "source": "git-subdir",
         "url": "https://github.com/theurian/theurian.git",
-        "path": "plugins/claude-code"
+        "path": "plugins/claude-code",
+        "ref": "main",
+        "sha": "30ada4d7b6f8f277a0f3e9337065d52914cddb75"
       }
     }
   ]
