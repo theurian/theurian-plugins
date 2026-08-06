@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/schema",
+  "name": "theurian-plugins",
+  "description": "Theurian's Claude Code plugin, published from the monorepo that builds it.",
+  "owner": {
+    "name": "Theurian Contributors",
+    "url": "https://github.com/theurian/theurian"
+  },
+  "plugins": [
+    {
+      "name": "theurian",
+      "description": "Invoke your engineering knowledge. Traceable specifications, decisions, and review knowledge for AI agents.",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/theurian/theurian.git",
+        "path": "plugins/claude-code"
+      }
+    }
+  ]
+}
